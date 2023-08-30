@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div7 , .div3 , .div4 {
+    top:80vh;
+    left: 100% ;
+    transform: translateX(-100%);
+}
+.div7{
+    animation-name: diva7;
+}
+@keyframes diva7{
+    92%{
+        background-color: #c0b7b7;
+    }
+    100%{
+        background-color: white;
+    }
+}
+div{
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-duration:30s;
+    animation-delay: 1s;
+    height: 20vh;
+    width: 20vh;
+    background-color: #c0b7b7;
+}
+/*//////////////////////////////////////////////////////////////////////*/
+.div1 {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    animation-name: diva1;
+    border-radius: 50%;
+    background: -webkit-radial-gradient(50% 50% , circle, black,#3571e4, #6a9ae4, #6a9ae4, #6a9ae4, #ede5e5, #ede5e5, #ede5e5, #ede5e5) ;
+}
+@keyframes diva1 {
+    20%{
+        top: 0;
+        left:100%;
+        transform: translateX(-200%);
+    }
+    22%{
+        top: 0;
+        transform: translateX(-100%);
+    }
+    32%{
+        top:20vh;
+    }
+    34% {
+        left:100%;
+        transform: translateX(-100%);
+        top:40vh;
+    }
+    54%{
+        left:20vh;
+        transform: translateX(0%);
+    }
+    56%{
+        left:0;
+        top:40vh;
+    }
+    66%{
+        top:60vh;
+    }
+    68%{
+        left:0;
+        transform: translateX(0%);
+        top:80vh;
+    }
+    88%{
+        left:100%;
+        transform: translateX(-200%);
+    }
+    90%, 92%{
+        left:100%;
+        transform: translateX(-100%);
+        top:80vh;
+        height: 20vh;
+        width: 20vh;
+    }
+    100%{
+        height: 100%;
+        width: 100%;
+    }
+}
+/*///////////////////////////////////////////////////////////////*/
+.div2{
+    top: 0;
+    left: 0;
+    -webkit-animation-name: diva2;
+}
+@keyframes diva2{
+    20% ,22%{
+        left:100%;
+        transform: translateX(-200%);
+        background-color:#c0b7b7;
+    }
+    30%{
+        left:0;
+        transform: translateX(0%);
+    }
+    32%,100%{
+        background-color: white;
+    }
+}
+/*//////////////////////////////done///////////////////////////////*/
+.div3{
+    top: 0;
+    animation-name: diva3;
+}
+@keyframes diva3 {
+    22%{
+        top: 0;
+    }
+    32%, 34% {
+        top:20vh;
+        background-color:#c0b7b7;
+    }
+    38%{
+        top:0;
+    }
+    44%,100%{
+        background-color: white;
+    }
+}
+/*///////////////////////////////done////////////////////////////////*/
+.div4{
+    top: 40vh;
+    animation-name: diva4;
+}
+@keyframes diva4 {
+    34%{
+        left:100%;
+        transform: translateX(-100%);
+    }
+    54%, 56%{
+        left:20vh;
+        transform: translateX(0%);
+        background-color:#c0b7b7;
+    }
+    64%{
+        left:100%;
+        transform: translateX(-100%);
+    }
+    66%,100%{
+        background-color: white;
+    }
+}
+/*///////////////////////////////done/////////////////////////////////*/
+.div5{
+    top: 40vh;
+    left: 0;
+    animation-name: diva5;
+}
+@keyframes diva5 {
+    56%{
+        top:40vh;
+    }
+    66% ,68%{
+        top:60vh;
+        background-color:#c0b7b7;
+    }
+    76%{
+        top:40vh;
+    }
+    78%,100%{
+        background-color: white;
+    }
+}
+/*/////////////////////////////done//////////////////////////////*/
+.div6{
+    top: 80vh;
+    left: 0;
+    animation-name: diva2;
+    animation-delay: 21.4s;
+}
